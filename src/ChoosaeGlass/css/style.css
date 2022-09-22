@@ -1,0 +1,84 @@
+.ab{
+    background-image: url(../../Asset/image/productGlass/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container .model{
+    display: flex;
+    justify-content: space-between;
+}
+.container .model .img-model{}
+.render .col img{
+    width: 20%;
+}
+.colRight{
+    height: 600px;
+    width: 40%;
+    position: relative;
+    background-image: url(../../Asset/image/productGlass/model.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colRight .glass img{
+    width: 55%;
+    position: absolute;
+    top: 135px;
+    left: 117px;
+    opacity: 50%;
+}
+.colRight .info{
+    background-color: orange;
+    opacity: 30%;
+    padding: 20px 20px;
+    position: absolute;
+    bottom: 0;
+}
+.colRight .info h2{
+    color: aqua;
+}
+.colRight .info p{
+    color: white;
+    font-size: 35px;
+}
+.colRight .info span{
+    color: white;
+    font-size: 25px;
+    
+}
+.colLeft{
+    height: 600px;
+    width: 40%;
+    position: relative;
+    background-image: url(../../Asset/image/productGlass/model.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colLeft .glass img{
+    width: 55%;
+    position: absolute;
+    top: 135px;
+    left: 117px;
+    opacity: 50%;
+}
+.colLeft .info{
+    background-color: orange;
+    opacity: 30%;
+    padding: 20px 20px;
+    position: absolute;
+    bottom: 0;
+}
+.colLeft .info h2{
+    color: aqua;
+}
+.colLeft .info p{
+    color: white;
+    font-size: 35px;
+}
+.colLeft .info span{
+    color: white;
+    font-size: 25px;
+    
+}
